@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
-from audio_analysis import analyze_audio
+from backend.audio_analysis import analyze_audio
 import os
 import shutil
 import uuid
